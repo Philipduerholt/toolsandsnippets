@@ -45,7 +45,7 @@ def readFromCorpusFile(corpusfile : str, outfolder : str) -> None:
     
     mastercorpus = os.path.join(os.getcwd(), corpusfile)
     outfolderpath = os.path.join(os.getcwd(), outfolder)
-    filenames = list(open("smallcorpusfile.txt", 'r', encoding = "utf-8"))[-1].split(",")
+    filenames = list(open(corpusfile, 'r', encoding = "utf-8"))[-1].split(",")
     
     if not os.path.exists(outfolderpath):
         print("\n creating output folder ... \n")
@@ -63,7 +63,7 @@ def readFromCorpusFile(corpusfile : str, outfolder : str) -> None:
      
 '''
 #
-#Uncomment one of the following to use
+#Uncomment one of the following to use or call from console or other script
 #
 '''
 
