@@ -1,3 +1,3 @@
 # toolsandsnippets
 
-For sharing tools and snippets.
+For sharing and collaborating on tools and snippets.
