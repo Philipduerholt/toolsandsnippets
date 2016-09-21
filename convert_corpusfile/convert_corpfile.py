@@ -1,6 +1,5 @@
 import re
 import os
-import csv
 import glob
 
 
